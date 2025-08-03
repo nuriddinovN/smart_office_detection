@@ -62,7 +62,7 @@ smart_office/
 ```bash
 # Clone the repository
 git clone https://github.com/nuriddinovN/smart_office_detection.git
-cd smart-office-detection
+cd smart_office_detection
 ```
 
 ### Step 2: Set Up Virtual Environment
