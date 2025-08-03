@@ -177,11 +177,10 @@ cd ../..
 cd smart_office_detection
 cd src
 
-# Activate virtual environment
-source smart_office/bin/activate
+# make sure Activate virtual environment
 
 # Run the dashboard launcher
-python src/run.py
+python run.py
 ```
 
 The launcher will:
