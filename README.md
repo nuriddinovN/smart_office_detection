@@ -65,7 +65,16 @@ git clone https://github.com/nuriddinovN/smart_office_detection.git
 cd smart_office_detection
 ```
 
-### Step 2: Set Up Virtual Environment
+### Step 2: Clean Models Directory (CRITICAL!)
+
+```bash
+# Navigate to models directory and remove placeholder files
+cd src/models
+rm smart_office_prompttuned.pt yolov8x-world.pt yolov8x-worldv2.pt
+cd ../..
+```
+
+### Step 3: Set Up Virtual Environment
 
 ```bash
 # Create a virtual environment (recommended)
@@ -82,7 +91,7 @@ source smart_office/bin/activate
 python --version  # Should show Python 3.10.x
 ```
 
-### Step 3: Install Dependencies
+### Step 4: Install Dependencies
 
 ```bash
 # Upgrade pip to latest version
@@ -95,14 +104,73 @@ pip install -r requirements.txt
 python -c "from ultralytics import YOLO; print('✅ Ultralytics installed successfully')"
 ```
 
-### Step 4: Download Pre-trained Models
+## ⚠️ **CRITICAL WARNING: Model Files Required**
+
+**🚨 IMPORTANT: Due to GitHub file size limitations (>100MB), the trained model files cannot be included in the repository clone. The cloned repository contains only placeholder files that MUST be replaced with actual model files.**
+
+**❌ The project WILL NOT WORK without downloading the actual model files!**
+
+### Why This Step is Critical:
+- Model files are 140MB+ each (exceeds GitHub's file size limit)
+- Placeholder files in the clone are empty and non-functional
+- You must manually download the real model files from GitHub's raw file links
+
+### Required Models (MUST DOWNLOAD):
+
+1. **smart_office_prompttuned.pt** - Custom trained model (Required for office detection)
+2. **yolov8x-worldv2.pt** - Base YOLO-World model (Required for inference)
+
+### Download Instructions (MANDATORY):
 
 ```bash
-# Create models directory
-mkdir -p src/models
+# STEP 1: Clean the models directory first (remove placeholder files)
+cd src/models
+rm smart_office_prompttuned.pt yolov8x-world.pt yolov8x-worldv2.pt
 
-# Download base YOLO-World models (these will be downloaded automatically on first run)
-# The custom model will be created during the first run
+# STEP 2: Download the actual model files from GitHub raw links
+# Method 1: Using wget (Linux/macOS)
+wget https://github.com/nuriddinovN/smart_office_detection/raw/main/src/models/smart_office_prompttuned.pt
+wget https://github.com/nuriddianovN/smart_office_detection/raw/main/src/models/yolov8x-worldv2.pt
+
+# Method 2: Using curl (if wget not available)
+curl -L -o smart_office_prompttuned.pt https://github.com/nuriddinovN/smart_office_detection/raw/main/src/models/smart_office_prompttuned.pt
+curl -L -o yolov8x-worldv2.pt https://github.com/nuriddinovN/smart_office_detection/raw/main/src/models/yolov8x-worldv2.pt
+
+# STEP 3: Verify downloads (files should be 100MB+ each)
+ls -lh *.pt
+cd ../..
+```
+
+### Manual Download (Windows or if command-line fails):
+
+**🔗 Direct Download Links:**
+
+1. **Custom Model:** [smart_office_prompttuned.pt](https://github.com/nuriddinovN/smart_office_detection/raw/main/src/models/smart_office_prompttuned.pt)
+2. **Base Model:** [yolov8x-worldv2.pt](https://github.com/nuriddinovN/smart_office_detection/raw/main/src/models/yolov8x-worldv2.pt)
+
+**Steps:**
+1. Right-click each link above → "Save link as..."
+2. Save both files to your `src/models/` directory
+3. Ensure file names are exactly: `smart_office_prompttuned.pt` and `yolov8x-worldv2.pt`
+
+**⚠️ DO NOT rename the files - they must have exact names as shown above**
+
+### Verify Model Installation:
+
+```bash
+# Check if models are properly downloaded
+python -c "
+import os
+models_dir = 'src/models'
+required_models = ['smart_office_prompttuned.pt', 'yolov8x-worldv2.pt']
+for model in required_models:
+    path = os.path.join(models_dir, model)
+    if os.path.exists(path):
+        size = os.path.getsize(path) / (1024*1024)  # MB
+        print(f'✅ {model}: {size:.1f} MB')
+    else:
+        print(f'❌ {model}: NOT FOUND')
+"
 ```
 
 ## 🎮 Usage Guide
@@ -178,6 +246,116 @@ python src/run.py --no-browser
 - **Download CSV Statistics**: Detection data in spreadsheet format
 - **Download JSON Boxes**: Detailed bounding box coordinates
 
+## 🎬 Live Demo & Examples
+
+### 🖼️ Sample Detection Results
+
+**Input Image:** Office environment with multiple workstations
+```
+📸 Processing office_scene.jpg (1920x1080)
+⏱️ Processing time: 2.3 seconds
+```
+
+**Detection Output:**
+```
+🔍 DETECTED OBJECTS (Total: 12)
+
+👥 PEOPLE (2 detected)
+├── Person 1: Confidence 92% | Position: (245, 156, 398, 567)
+└── Person 2: Confidence 87% | Position: (892, 203, 1045, 623)
+
+🪑 CHAIRS (4 detected)  
+├── Office Chair 1: Confidence 94% | Position: (123, 345, 267, 678)
+├── Office Chair 2: Confidence 89% | Position: (445, 298, 589, 634)
+├── Desk Chair 3: Confidence 91% | Position: (756, 367, 889, 701)
+└── Swivel Chair 4: Confidence 88% | Position: (1124, 334, 1245, 656)
+
+🖥️ MONITORS (3 detected)
+├── Computer Screen 1: Confidence 91% | Position: (334, 123, 678, 445)
+├── LCD Monitor 2: Confidence 85% | Position: (789, 134, 1123, 456)
+└── Gaming Monitor 3: Confidence 90% | Position: (1234, 145, 1567, 467)
+
+⌨️ KEYBOARDS (2 detected)
+├── Keyboard 1: Confidence 88% | Position: (356, 567, 543, 623)
+└── Computer Keyboard 2: Confidence 90% | Position: (823, 578, 1012, 634)
+
+💻 LAPTOPS (1 detected)
+└── Laptop 1: Confidence 93% | Position: (456, 234, 678, 445)
+
+📱 PHONES (1 detected)
+└── Smartphone 1: Confidence 86% | Position: (567, 345, 612, 456)
+```
+
+### 📊 Dashboard Preview
+
+When you run the dashboard, you'll see:
+
+**1. Upload Section**
+```
+┌─────────────────────────────────────────┐
+│  📁 Choose an image file...              │
+│  Drag and drop or click to browse       │
+│  Supported: JPG, PNG, JPEG, BMP         │
+└─────────────────────────────────────────┘
+```
+
+**2. Settings Sidebar**
+```
+⚙️ DETECTION SETTINGS
+├── 🎯 Confidence Threshold: 0.5 ████████░░
+├── 📋 Show Subcategories: ☑️ Yes
+├── 📄 Show JSON Data: ☐ No  
+└── 🎨 Box Thickness: Medium
+```
+
+**3. Results Display**
+```
+✅ DETECTION COMPLETE!
+
+📊 PERFORMANCE METRICS
+├── ⏱️ Processing Time: 2.3s
+├── 🔍 Objects Found: 12
+├── 📂 Categories: 6
+└── 🎯 Avg Confidence: 89.2%
+
+📈 DETECTION DISTRIBUTION
+People     ████████░░ 17% (2)
+Chairs     ████████████ 33% (4)  
+Monitors   ████████░░░░ 25% (3)
+Keyboards  ████░░░░░░░░ 17% (2)
+Laptops    ██░░░░░░░░░░ 8% (1)
+Phones     ██░░░░░░░░░░ 8% (1)
+```
+
+**4. Export Options**
+```
+💾 DOWNLOAD RESULTS
+├── 🖼️ [Download Annotated Image] (office_scene_annotated.jpg)
+├── 📊 [Download CSV Report] (detection_results.csv)  
+└── 📄 [Download JSON Data] (bounding_boxes.json)
+```
+
+### 🎥 Interactive Features Demo
+
+**Real-time Confidence Adjustment:**
+- Move slider: `0.1 ←────●────→ 1.0`
+- Live update: Objects appear/disappear based on threshold
+- Visual feedback: Box colors change with confidence levels
+
+**Hover Effects:**
+- Hover over detected objects → Show detailed info popup
+- Click on category labels → Highlight all objects of that type
+- Zoom functionality → Click and drag to zoom into specific areas
+
+### 📱 Mobile-Responsive Design
+
+The dashboard works on all devices:
+```
+💻 Desktop: Full feature set with sidebar
+📱 Mobile: Collapsible menu, touch-friendly controls  
+📟 Tablet: Optimized layout for medium screens
+```
+
 ## 🔧 Advanced Usage
 
 ### Model Evaluation
@@ -221,7 +399,26 @@ python src/evaluate.py
 
 ### Common Issues and Solutions
 
-#### 1. ModuleNotFoundError
+#### 1. Model Not Found Error (MOST COMMON)
+```bash
+# ❌ Error: FileNotFoundError: [Errno 2] No such file or directory: 'src/models/smart_office_prompttuned.pt'
+# ❌ Error: Model file not found or corrupted
+
+# ✅ SOLUTION: Download the actual model files (not placeholders)
+cd src/models
+
+# Remove placeholder files first
+rm -f smart_office_prompttuned.pt yolov8x-world.pt yolov8x-worldv2.pt
+
+# Download real model files
+wget https://github.com/nuriddinovN/smart_office_detection/raw/main/src/models/smart_office_prompttuned.pt
+wget https://github.com/nuriddinovN/smart_office_detection/raw/main/src/models/yolov8x-worldv2.pt
+
+# Verify file sizes (should be 100MB+ each)
+ls -lh *.pt
+```
+
+#### 2. ModuleNotFoundError
 ```bash
 # Make sure virtual environment is activated
 source smart_office/bin/activate
@@ -230,26 +427,38 @@ source smart_office/bin/activate
 pip install -r requirements.txt
 ```
 
-#### 2. CUDA/GPU Issues
+#### 3. CUDA/GPU Issues
 ```bash
 # Install CPU-only PyTorch if you don't have GPU
 pip uninstall torch torchvision
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 ```
 
-#### 3. Port Already in Use
+#### 4. Port Already in Use
 ```bash
 # Use different port
 python src/run.py 8502
 ```
 
-#### 4. Model Download Issues
+#### 5. Model Download Issues
 ```bash
-# Manually download base models
-python -c "from ultralytics import YOLO; YOLO('yolov8x-worldv2.pt')"
+# ❌ Error: Connection failed, file corrupted, or wrong file size
+
+# ✅ SOLUTION 1: Use alternative download method
+curl -L -o src/models/smart_office_prompttuned.pt https://github.com/nuriddinovN/smart_office_detection/raw/main/src/models/smart_office_prompttuned.pt
+curl -L -o src/models/yolov8x-worldv2.pt https://github.com/nuriddinovN/smart_office_detection/raw/main/src/models/yolov8x-worldv2.pt
+
+# ✅ SOLUTION 2: Manual download from browser
+# Visit: https://github.com/nuriddinovN/smart_office_detection/raw/main/src/models/smart_office_prompttuned.pt
+# Right-click → Save As → src/models/smart_office_prompttuned.pt
+
+# ✅ SOLUTION 3: Verify file integrity
+cd src/models
+file *.pt  # Should show "PyTorch model" or similar
+ls -lh *.pt  # Should show file sizes 100MB+
 ```
 
-#### 5. Permission Errors
+#### 6. Permission Errors
 ```bash
 # Fix file permissions
 chmod +x src/run.py
@@ -261,9 +470,10 @@ If you encounter issues:
 
 1. **Check Python Version**: Ensure you're using Python 3.10+
 2. **Virtual Environment**: Always activate your virtual environment
-3. **Dependencies**: Verify all packages are installed correctly
-4. **GPU Memory**: If using GPU, ensure sufficient VRAM (4GB+)
-5. **File Paths**: Check all file paths are correct
+3. **Model Files**: Verify both required models are downloaded
+4. **Dependencies**: Verify all packages are installed correctly
+5. **GPU Memory**: If using GPU, ensure sufficient VRAM (4GB+)
+6. **File Paths**: Check all file paths are correct
 
 ## 📊 Performance Benchmarks
 
@@ -274,6 +484,8 @@ If you encounter issues:
 | Maximum Image Size | 4K (4096x4096) |
 | Confidence Threshold Range | 0.1 - 1.0 |
 | Supported Categories | 6 main categories, 25+ subcategories |
+| Model Size | ~140MB (smart_office_prompttuned.pt) |
+| Base Model Size | ~280MB (yolov8x-worldv2.pt) |
 
 ## 🤝 Contributing
 
@@ -303,8 +515,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have questions or need help:
 
 - 📧 Email: your.email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/smart-office-detection/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/smart-office-detection/discussions)
+- 🐛 Issues: [GitHub Issues](https://github.com/nuriddinovN/smart_office_detection/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/nuriddinovN/smart_office_detection/discussions)
 
 ---
 
