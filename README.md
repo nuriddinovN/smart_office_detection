@@ -95,12 +95,33 @@ pip install -r requirements.txt
 python -c "from ultralytics import YOLO; print('✅ Ultralytics installed successfully')"
 ```
 
+### Step 4: **✅Verify Model Installation:**
+
+```bash
+# Check if models are properly downloaded
+python -c "
+import os
+models_dir = 'src/models'
+required_models = ['smart_office_prompttuned.pt', 'yolov8x-worldv2.pt']
+for model in required_models:
+    path = os.path.join(models_dir, model)
+    if os.path.exists(path):
+        size = os.path.getsize(path) / (1024*1024)  # MB
+        print(f'✅ {model}: {size:.1f} MB')
+    else:
+        print(f'❌ {model}: NOT FOUND')
+"
+```
+
+
 ## ⚠️ **CRITICAL WARNING: Model Files Required**
 
 **🚨 IMPORTANT: Due to GitHub file size limitations (>100MB), the trained model files MIGHT NOT be included in the repository clone. The cloned repository MIGHT contains only placeholder files that MUST be replaced with actual model files.**
 
 **❌ The project WILL NOT WORK without downloading the actual model files!**
-**⚠️If you face such truble pls follow instructions**
+
+**⚠️If you face such truble pls follow instructions, otherwise just skip this step**
+
 ### Why This Step is Critical:
 - Model files are 140MB+ each (exceeds GitHub's file size limit)
 - Placeholder files in the clone are empty and non-functional
@@ -146,23 +167,6 @@ cd ../..
 
 **⚠️ DO NOT rename the files - they must have exact names as shown above**
 
-### Step 4: **✅Verify Model Installation:**
-
-```bash
-# Check if models are properly downloaded
-python -c "
-import os
-models_dir = 'src/models'
-required_models = ['smart_office_prompttuned.pt', 'yolov8x-worldv2.pt']
-for model in required_models:
-    path = os.path.join(models_dir, model)
-    if os.path.exists(path):
-        size = os.path.getsize(path) / (1024*1024)  # MB
-        print(f'✅ {model}: {size:.1f} MB')
-    else:
-        print(f'❌ {model}: NOT FOUND')
-"
-```
 
 ## 🎮 Usage Guide
 
