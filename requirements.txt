@@ -17,8 +17,3 @@ psutil
 pyyaml
 
 
-#3-party
-time
-json
-datetime
-pathlib2
