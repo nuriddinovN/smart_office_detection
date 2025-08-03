@@ -494,10 +494,6 @@ We welcome contributions! Please follow these steps:
 6. Push to the branch (`git push origin feature/amazing-feature`)
 7. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [Ultralytics](https://ultralytics.com/) for YOLO-World model
@@ -509,7 +505,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have questions or need help:
 
-- 📧 Email: your.email@example.com
+- 📧 Email: nuriddinov.official@yahoo.com
 - 🐛 Issues: [GitHub Issues](https://github.com/nuriddinovN/smart_office_detection/issues)
 - 💬 Discussions: [GitHub Discussions](https://github.com/nuriddinovN/smart_office_detection/discussions)
 
