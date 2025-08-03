@@ -175,6 +175,7 @@ cd ../..
 ```bash
 # Navigate to the project directory
 cd smart_office_detection
+cd src
 
 # Activate virtual environment
 source smart_office/bin/activate
@@ -203,10 +204,10 @@ streamlit run dashboard_app.py
 
 ```bash
 # Run on specific port
-python src/run.py 8502
+python run.py 8502
 
 # Run without auto-opening browser
-python src/run.py --no-browser
+python run.py --no-browser
 ```
 
 ## 📱 Using the Dashboard
