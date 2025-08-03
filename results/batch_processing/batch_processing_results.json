@@ -1,0 +1,4452 @@
+{
+  "summary": {
+    "total_images": 8,
+    "total_detections": 197,
+    "avg_detections_per_image": 24.625,
+    "avg_processing_time": 0.3323444426059723,
+    "avg_fps": 3.008926498541155,
+    "total_processing_time": 2.6587555408477783
+  },
+  "detailed_results": [
+    {
+      "image": "ofi1-20231026-071542-1698297342015-7_mp4-835_jpg.rf.e9ce4d02e364fb2420db2aa64863d824.jpg",
+      "detections": 33,
+      "time": 0.7507693767547607,
+      "detections_list": [
+        {
+          "class": "keyboard",
+          "confidence": 0.9005553126335144,
+          "bbox": [
+            296.06915283203125,
+            278.1861572265625,
+            318.26922607421875,
+            300.8463134765625
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.8804145455360413,
+          "bbox": [
+            393.123779296875,
+            400.9125671386719,
+            422.7979736328125,
+            439.3785095214844
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8317376375198364,
+          "bbox": [
+            232.76219177246094,
+            220.4677734375,
+            322.2886962890625,
+            358.040771484375
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8211106657981873,
+          "bbox": [
+            372.255615234375,
+            212.94821166992188,
+            409.64501953125,
+            292.79144287109375
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.8069137334823608,
+          "bbox": [
+            393.3995361328125,
+            400.8203430175781,
+            422.877197265625,
+            439.6297912597656
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.7719144821166992,
+          "bbox": [
+            351.79327392578125,
+            293.387451171875,
+            406.60223388671875,
+            361.861572265625
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.768137514591217,
+          "bbox": [
+            398.56402587890625,
+            312.7283935546875,
+            480.07745361328125,
+            418.548095703125
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7506123781204224,
+          "bbox": [
+            398.6287841796875,
+            312.90997314453125,
+            480.091064453125,
+            418.19891357421875
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.74858158826828,
+          "bbox": [
+            432.161376953125,
+            187.26303100585938,
+            481.07330322265625,
+            242.35403442382812
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7375842332839966,
+          "bbox": [
+            305.72540283203125,
+            199.80319213867188,
+            355.12213134765625,
+            279.8559265136719
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7029500603675842,
+          "bbox": [
+            483.76708984375,
+            231.35446166992188,
+            530.2293701171875,
+            276.8016052246094
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6752206683158875,
+          "bbox": [
+            463.3529052734375,
+            301.40264892578125,
+            512.5696411132812,
+            362.54150390625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6651748418807983,
+          "bbox": [
+            324.42724609375,
+            136.62774658203125,
+            345.0047607421875,
+            163.09774780273438
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.660165548324585,
+          "bbox": [
+            346.2110595703125,
+            233.93368530273438,
+            383.787841796875,
+            295.2585754394531
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.6441540122032166,
+          "bbox": [
+            271.37945556640625,
+            215.26080322265625,
+            304.97283935546875,
+            268.0245361328125
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.643947422504425,
+          "bbox": [
+            280.6759948730469,
+            119.37683868408203,
+            311.8437805175781,
+            149.57537841796875
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6247088313102722,
+          "bbox": [
+            359.3888854980469,
+            143.1199188232422,
+            384.9951477050781,
+            168.8679962158203
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.6159265637397766,
+          "bbox": [
+            393.427978515625,
+            400.89630126953125,
+            422.882568359375,
+            439.73773193359375
+          ],
+          "original_subcategory": "keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5880988240242004,
+          "bbox": [
+            215.76351928710938,
+            262.152099609375,
+            291.6535339355469,
+            400.43670654296875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5781395435333252,
+          "bbox": [
+            411.17449951171875,
+            285.6185302734375,
+            481.46734619140625,
+            361.7347412109375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5339862704277039,
+          "bbox": [
+            522.4384765625,
+            252.9421844482422,
+            570.436767578125,
+            304.95611572265625
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5117887854576111,
+          "bbox": [
+            394.9732360839844,
+            236.5839385986328,
+            424.8074035644531,
+            302.01678466796875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.5091680884361267,
+          "bbox": [
+            312.5278625488281,
+            168.685302734375,
+            338.7532043457031,
+            176.03631591796875
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.48746082186698914,
+          "bbox": [
+            522.4705200195312,
+            253.29107666015625,
+            569.8615112304688,
+            305.17578125
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.4491352140903473,
+          "bbox": [
+            338.1180419921875,
+            360.77508544921875,
+            433.5687255859375,
+            480.0
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.43988409638404846,
+          "bbox": [
+            352.70806884765625,
+            181.91207885742188,
+            398.36895751953125,
+            232.72274780273438
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4398565888404846,
+          "bbox": [
+            341.65545654296875,
+            132.40493774414062,
+            367.21630859375,
+            160.07052612304688
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "person",
+          "confidence": 0.4168740510940552,
+          "bbox": [
+            318.69140625,
+            149.265869140625,
+            365.0810546875,
+            206.99850463867188
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.4113369286060333,
+          "bbox": [
+            353.37738037109375,
+            182.4815673828125,
+            398.54547119140625,
+            232.66253662109375
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.3773553669452667,
+          "bbox": [
+            350.280029296875,
+            159.5440673828125,
+            389.99365234375,
+            221.769775390625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.35671207308769226,
+          "bbox": [
+            328.8218688964844,
+            171.69627380371094,
+            364.3817443847656,
+            215.35975646972656
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.34687092900276184,
+          "bbox": [
+            406.72760009765625,
+            380.25811767578125,
+            439.87615966796875,
+            416.30462646484375
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3241046071052551,
+          "bbox": [
+            306.2440185546875,
+            198.88592529296875,
+            383.1275634765625,
+            292.81060791015625
+          ],
+          "original_subcategory": "Computer display"
+        }
+      ]
+    },
+    {
+      "image": "1646654228-1375518_jpg.rf.ad06279ec3c3afd3a06037dd6601fd29.jpg",
+      "detections": 32,
+      "time": 0.3258848190307617,
+      "detections_list": [
+        {
+          "class": "person",
+          "confidence": 0.8789047598838806,
+          "bbox": [
+            97.96855163574219,
+            121.51864624023438,
+            222.8072052001953,
+            297.43402099609375
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8561797738075256,
+          "bbox": [
+            392.9909973144531,
+            252.32528686523438,
+            501.3121643066406,
+            349.9349060058594
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8429361581802368,
+          "bbox": [
+            193.94979858398438,
+            38.115966796875,
+            269.1252136230469,
+            197.0465850830078
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.8160102367401123,
+          "bbox": [
+            372.5490417480469,
+            359.3699645996094,
+            447.3237609863281,
+            374.5866394042969
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.770781397819519,
+          "bbox": [
+            224.59793090820312,
+            137.23263549804688,
+            322.4601135253906,
+            274.31524658203125
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.759676456451416,
+          "bbox": [
+            342.3493347167969,
+            109.52682495117188,
+            447.5712585449219,
+            180.1766357421875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7344198226928711,
+          "bbox": [
+            333.829345703125,
+            68.32798767089844,
+            376.8818359375,
+            107.35090637207031
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6961215734481812,
+          "bbox": [
+            82.32000732421875,
+            80.31306457519531,
+            135.9121551513672,
+            135.57542419433594
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6853907704353333,
+          "bbox": [
+            467.2855224609375,
+            36.135292053222656,
+            511.47998046875,
+            74.88810729980469
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6459940671920776,
+          "bbox": [
+            63.09814453125,
+            210.39883422851562,
+            172.31935119628906,
+            319.0933532714844
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.6395758390426636,
+          "bbox": [
+            353.45709228515625,
+            105.84429931640625,
+            398.28973388671875,
+            121.308349609375
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.5930073261260986,
+          "bbox": [
+            403.17425537109375,
+            110.08921813964844,
+            448.56671142578125,
+            140.23995971679688
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5750464797019958,
+          "bbox": [
+            513.4447021484375,
+            79.7210693359375,
+            561.0740966796875,
+            108.39706420898438
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5729297995567322,
+          "bbox": [
+            116.82189178466797,
+            28.837364196777344,
+            148.20166015625,
+            72.14494323730469
+          ],
+          "original_subcategory": "Monitor panel"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5691128373146057,
+          "bbox": [
+            417.55084228515625,
+            71.31083679199219,
+            471.3975830078125,
+            123.20387268066406
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5561093688011169,
+          "bbox": [
+            80.11540222167969,
+            330.1804504394531,
+            130.3740997314453,
+            374.9474182128906
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.49858880043029785,
+          "bbox": [
+            353.45648193359375,
+            106.22759246826172,
+            399.044677734375,
+            122.5326919555664
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4878595173358917,
+          "bbox": [
+            0.0,
+            194.16744995117188,
+            56.49951171875,
+            298.9396667480469
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4864782989025116,
+          "bbox": [
+            428.7965087890625,
+            8.818063735961914,
+            456.23052978515625,
+            18.350250244140625
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.47589123249053955,
+          "bbox": [
+            513.022705078125,
+            121.93960571289062,
+            578.37353515625,
+            179.14175415039062
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.46109190583229065,
+          "bbox": [
+            338.94561767578125,
+            152.879150390625,
+            415.88714599609375,
+            228.9866943359375
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.4495507478713989,
+          "bbox": [
+            4.391563415527344,
+            110.83892822265625,
+            56.95413589477539,
+            155.37786865234375
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.41291964054107666,
+          "bbox": [
+            154.50393676757812,
+            183.24465942382812,
+            214.64584350585938,
+            244.68817138671875
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.37309524416923523,
+          "bbox": [
+            293.3313293457031,
+            346.66326904296875,
+            338.8447570800781,
+            374.44451904296875
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.37051382660865784,
+          "bbox": [
+            473.14190673828125,
+            312.17047119140625,
+            551.2644653320312,
+            374.18896484375
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.3589242696762085,
+          "bbox": [
+            401.46795654296875,
+            123.73793029785156,
+            438.91107177734375,
+            149.00767517089844
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.35813668370246887,
+          "bbox": [
+            338.631591796875,
+            21.519432067871094,
+            384.7005615234375,
+            58.021087646484375
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.33918434381484985,
+          "bbox": [
+            403.198974609375,
+            110.32035827636719,
+            448.4862060546875,
+            140.079345703125
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.32279255986213684,
+          "bbox": [
+            93.80186462402344,
+            46.13226318359375,
+            115.82563781738281,
+            70.6013412475586
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.32207539677619934,
+          "bbox": [
+            465.7752685546875,
+            220.37655639648438,
+            526.453369140625,
+            281.4441223144531
+          ],
+          "original_subcategory": "desk chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3161810040473938,
+          "bbox": [
+            17.966995239257812,
+            85.41273498535156,
+            59.183349609375,
+            133.21800231933594
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.31201615929603577,
+          "bbox": [
+            131.70458984375,
+            63.14483642578125,
+            206.8131103515625,
+            104.36039733886719
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        }
+      ]
+    },
+    {
+      "image": "WhatsApp-Video-2025-05-13-at-4_10_32-PM_frame_0068_jpg.rf.3a0f9cb951798176ba600d34fa6bb9e4.jpg",
+      "detections": 7,
+      "time": 0.2618980407714844,
+      "detections_list": [
+        {
+          "class": "chair",
+          "confidence": 0.8646501898765564,
+          "bbox": [
+            278.1124572753906,
+            359.99566650390625,
+            546.5046997070312,
+            578.7056884765625
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.864169716835022,
+          "bbox": [
+            23.32534408569336,
+            272.50860595703125,
+            117.6171646118164,
+            358.69171142578125
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7979651689529419,
+          "bbox": [
+            84.04215240478516,
+            105.73546600341797,
+            287.364013671875,
+            376.6250915527344
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.73250812292099,
+          "bbox": [
+            152.32598876953125,
+            149.41928100585938,
+            303.0932922363281,
+            461.16864013671875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.7173798084259033,
+          "bbox": [
+            527.737060546875,
+            109.45616149902344,
+            658.8202514648438,
+            176.55178833007812
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6286882162094116,
+          "bbox": [
+            526.5407104492188,
+            0.6141979694366455,
+            716.57861328125,
+            192.43911743164062
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5811905264854431,
+          "bbox": [
+            777.39306640625,
+            15.225582122802734,
+            952.5516967773438,
+            271.9744873046875
+          ],
+          "original_subcategory": "chair"
+        }
+      ]
+    },
+    {
+      "image": "1746543134_64577_jpg.rf.570a8e4ad8c253da31a587447c775769.jpg",
+      "detections": 8,
+      "time": 0.27947425842285156,
+      "detections_list": [
+        {
+          "class": "keyboard",
+          "confidence": 0.8553534746170044,
+          "bbox": [
+            756.7959594726562,
+            347.6542053222656,
+            1114.4927978515625,
+            480.58355712890625
+          ],
+          "original_subcategory": "keyboard"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.8076534867286682,
+          "bbox": [
+            310.7709655761719,
+            194.78189086914062,
+            683.7138061523438,
+            534.3649291992188
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7884508967399597,
+          "bbox": [
+            1152.961669921875,
+            751.5053100585938,
+            1644.640869140625,
+            1078.7257080078125
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.7514846920967102,
+          "bbox": [
+            756.6438598632812,
+            347.940185546875,
+            1114.935302734375,
+            480.4128112792969
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7114033102989197,
+          "bbox": [
+            413.9876403808594,
+            464.9063720703125,
+            1168.9229736328125,
+            1077.5252685546875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.6265158653259277,
+          "bbox": [
+            1224.4896240234375,
+            136.93276977539062,
+            1718.1639404296875,
+            491.7512512207031
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5789259672164917,
+          "bbox": [
+            490.7310791015625,
+            110.09951782226562,
+            1260.4267578125,
+            263.5809020996094
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "phone",
+          "confidence": 0.3192022144794464,
+          "bbox": [
+            976.9513549804688,
+            814.9497680664062,
+            1038.2403564453125,
+            859.046142578125
+          ],
+          "original_subcategory": "cell phone"
+        }
+      ]
+    },
+    {
+      "image": "photo_2025-08-01_10-18-51.jpg",
+      "detections": 35,
+      "time": 0.21772265434265137,
+      "detections_list": [
+        {
+          "class": "person",
+          "confidence": 0.8943500518798828,
+          "bbox": [
+            743.0995483398438,
+            359.8548583984375,
+            988.1565551757812,
+            575.8582763671875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7669909596443176,
+          "bbox": [
+            726.0001831054688,
+            213.2908172607422,
+            788.9995727539062,
+            350.81549072265625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7253857851028442,
+          "bbox": [
+            1178.454833984375,
+            0.068328857421875,
+            1279.705322265625,
+            188.83865356445312
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.7035659551620483,
+          "bbox": [
+            681.5158081054688,
+            429.41986083984375,
+            797.1829223632812,
+            546.078369140625
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6926320195198059,
+          "bbox": [
+            624.5433349609375,
+            444.9754638671875,
+            666.7183837890625,
+            576.0
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6833596229553223,
+          "bbox": [
+            0.02198028564453125,
+            402.79217529296875,
+            68.64572143554688,
+            576.0
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6289065480232239,
+          "bbox": [
+            480.41387939453125,
+            273.189453125,
+            591.9059448242188,
+            378.821044921875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.5661277174949646,
+          "bbox": [
+            724.6884155273438,
+            192.48199462890625,
+            755.5026245117188,
+            232.949462890625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.5301101207733154,
+          "bbox": [
+            26.997283935546875,
+            328.06915283203125,
+            447.54559326171875,
+            575.927978515625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.5196355581283569,
+          "bbox": [
+            408.01116943359375,
+            273.85626220703125,
+            528.1959228515625,
+            408.77288818359375
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5148841142654419,
+          "bbox": [
+            598.2694091796875,
+            296.6121826171875,
+            670.2291259765625,
+            471.1082763671875
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "person",
+          "confidence": 0.5080087184906006,
+          "bbox": [
+            1075.717529296875,
+            28.35723876953125,
+            1131.459228515625,
+            189.3026123046875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4914342164993286,
+          "bbox": [
+            610.7633056640625,
+            272.151611328125,
+            656.8448486328125,
+            359.3756103515625
+          ],
+          "original_subcategory": "Computer screen"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.4902820885181427,
+          "bbox": [
+            437.2069091796875,
+            405.2138366699219,
+            524.7825927734375,
+            498.6474304199219
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.48938047885894775,
+          "bbox": [
+            396.8799133300781,
+            496.0986328125,
+            482.5591125488281,
+            543.40673828125
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.47756773233413696,
+          "bbox": [
+            598.047607421875,
+            269.85076904296875,
+            669.709228515625,
+            470.57904052734375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.4705558121204376,
+          "bbox": [
+            975.4901123046875,
+            383.605224609375,
+            1056.017822265625,
+            466.23876953125
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "phone",
+          "confidence": 0.46654486656188965,
+          "bbox": [
+            761.0584716796875,
+            541.3792724609375,
+            822.6865234375,
+            564.5543212890625
+          ],
+          "original_subcategory": "cell phone"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.45125046372413635,
+          "bbox": [
+            610.809814453125,
+            271.55584716796875,
+            656.93017578125,
+            358.97283935546875
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.44177699089050293,
+          "bbox": [
+            504.22882080078125,
+            356.1962890625,
+            566.4564819335938,
+            545.7777099609375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "phone",
+          "confidence": 0.4340517222881317,
+          "bbox": [
+            761.38232421875,
+            541.361328125,
+            822.4619140625,
+            564.7291259765625
+          ],
+          "original_subcategory": "smartphone"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.43352705240249634,
+          "bbox": [
+            509.00726318359375,
+            367.8363037109375,
+            576.0736694335938,
+            575.9525146484375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4033038020133972,
+          "bbox": [
+            508.04840087890625,
+            425.7286376953125,
+            571.8399047851562,
+            575.7146606445312
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.3941781520843506,
+          "bbox": [
+            231.06707763671875,
+            336.92950439453125,
+            427.28814697265625,
+            573.3406372070312
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.38778451085090637,
+          "bbox": [
+            505.6360168457031,
+            369.06787109375,
+            667.516845703125,
+            575.642822265625
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.3848263621330261,
+          "bbox": [
+            781.6473388671875,
+            273.11358642578125,
+            866.6956787109375,
+            445.92620849609375
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3794716000556946,
+          "bbox": [
+            761.83984375,
+            200.45938110351562,
+            784.5517578125,
+            220.9769287109375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3701353371143341,
+          "bbox": [
+            505.3236999511719,
+            364.67413330078125,
+            573.344482421875,
+            574.739501953125
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3556402623653412,
+          "bbox": [
+            664.8366088867188,
+            390.19329833984375,
+            710.4174194335938,
+            410.52667236328125
+          ],
+          "original_subcategory": "Output device"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3242124319076538,
+          "bbox": [
+            509.0406494140625,
+            331.79510498046875,
+            566.1937255859375,
+            506.19232177734375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3212391436100006,
+          "bbox": [
+            611.0353393554688,
+            271.613037109375,
+            657.0021362304688,
+            358.3402099609375
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.319568932056427,
+          "bbox": [
+            621.0279541015625,
+            347.05633544921875,
+            666.6075439453125,
+            576.0
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.31607356667518616,
+          "bbox": [
+            354.5948486328125,
+            287.13629150390625,
+            518.5933837890625,
+            483.35308837890625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3108721077442169,
+          "bbox": [
+            507.1840515136719,
+            367.07440185546875,
+            593.581787109375,
+            575.393798828125
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.3094472289085388,
+          "bbox": [
+            750.871826171875,
+            338.9328918457031,
+            806.59130859375,
+            482.1044006347656
+          ],
+          "original_subcategory": "chair"
+        }
+      ]
+    },
+    {
+      "image": "maxresdefault.jpg",
+      "detections": 23,
+      "time": 0.26486730575561523,
+      "detections_list": [
+        {
+          "class": "person",
+          "confidence": 0.9093204736709595,
+          "bbox": [
+            285.2452392578125,
+            198.6075439453125,
+            714.9312744140625,
+            638.323486328125
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8422834277153015,
+          "bbox": [
+            175.675048828125,
+            112.83592224121094,
+            349.87652587890625,
+            414.04150390625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.8156452775001526,
+          "bbox": [
+            552.8872680664062,
+            40.05134582519531,
+            629.8622436523438,
+            92.4661865234375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.8070093393325806,
+          "bbox": [
+            13.353607177734375,
+            201.59408569335938,
+            122.33152770996094,
+            374.9167785644531
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.7685797214508057,
+          "bbox": [
+            967.8271484375,
+            606.7840576171875,
+            1060.1416015625,
+            666.1373291015625
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7659019827842712,
+          "bbox": [
+            477.4519348144531,
+            38.98284912109375,
+            554.072998046875,
+            99.92999267578125
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7635020017623901,
+          "bbox": [
+            208.35006713867188,
+            52.50030517578125,
+            272.5428771972656,
+            106.81600952148438
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7437653541564941,
+          "bbox": [
+            884.0303955078125,
+            103.48980712890625,
+            971.4759521484375,
+            236.06695556640625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.7356537580490112,
+          "bbox": [
+            967.6243896484375,
+            606.4989013671875,
+            1059.624755859375,
+            665.9403076171875
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7332398295402527,
+          "bbox": [
+            844.6497802734375,
+            70.43681335449219,
+            894.208740234375,
+            125.70512390136719
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.729922890663147,
+          "bbox": [
+            509.4149169921875,
+            90.89938354492188,
+            659.687744140625,
+            309.7432861328125
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.7161081433296204,
+          "bbox": [
+            874.46826171875,
+            171.2916717529297,
+            971.7734375,
+            307.32489013671875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6429718136787415,
+          "bbox": [
+            844.6355590820312,
+            70.11962890625,
+            894.0753784179688,
+            125.439208984375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6420207023620605,
+          "bbox": [
+            817.9747924804688,
+            415.901123046875,
+            1017.1281127929688,
+            650.0386962890625
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.63787841796875,
+          "bbox": [
+            1122.551025390625,
+            559.5677490234375,
+            1197.832763671875,
+            707.6968994140625
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.6174209117889404,
+          "bbox": [
+            518.5225219726562,
+            106.76724243164062,
+            579.0988159179688,
+            123.20785522460938
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5311262607574463,
+          "bbox": [
+            888.1409912109375,
+            71.10050964355469,
+            953.2181396484375,
+            118.71583557128906
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "phone",
+          "confidence": 0.5197013020515442,
+          "bbox": [
+            439.06390380859375,
+            96.15167236328125,
+            478.90594482421875,
+            127.18170166015625
+          ],
+          "original_subcategory": "telephone"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4748397469520569,
+          "bbox": [
+            208.37066650390625,
+            52.592742919921875,
+            273.61309814453125,
+            106.79928588867188
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.45106014609336853,
+          "bbox": [
+            518.4805908203125,
+            106.95425415039062,
+            581.0394287109375,
+            123.68161010742188
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.3514610230922699,
+          "bbox": [
+            234.4478759765625,
+            74.75248718261719,
+            309.7733154296875,
+            158.9844207763672
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.31551021337509155,
+          "bbox": [
+            1174.8681640625,
+            527.2314453125,
+            1217.7890625,
+            567.326904296875
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3029865026473999,
+          "bbox": [
+            329.39031982421875,
+            0.2924995422363281,
+            456.60308837890625,
+            30.08035659790039
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        }
+      ]
+    },
+    {
+      "image": "Screenshot From 2025-08-02 19-26-33.png",
+      "detections": 25,
+      "time": 0.28006982803344727,
+      "detections_list": [
+        {
+          "class": "person",
+          "confidence": 0.938784658908844,
+          "bbox": [
+            841.3966064453125,
+            346.51068115234375,
+            1005.1713256835938,
+            811.6043090820312
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.8872408866882324,
+          "bbox": [
+            1261.3092041015625,
+            449.4027404785156,
+            1334.7274169921875,
+            514.4652099609375
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8745696544647217,
+          "bbox": [
+            915.2527465820312,
+            96.2039794921875,
+            1020.15185546875,
+            269.36328125
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.8635640740394592,
+          "bbox": [
+            497.7574768066406,
+            364.6632995605469,
+            677.80419921875,
+            571.3836669921875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.8587290644645691,
+          "bbox": [
+            643.5579833984375,
+            125.60078430175781,
+            742.4957885742188,
+            268.95550537109375
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.8458524346351624,
+          "bbox": [
+            754.7752685546875,
+            99.75814819335938,
+            870.8565063476562,
+            174.2692413330078
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.7952224612236023,
+          "bbox": [
+            993.9082641601562,
+            204.42320251464844,
+            1112.9970703125,
+            399.6737060546875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.7831841111183167,
+          "bbox": [
+            395.89166259765625,
+            381.1380920410156,
+            454.9189147949219,
+            432.008056640625
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7789716124534607,
+          "bbox": [
+            1017.5535888671875,
+            176.8062286376953,
+            1113.8701171875,
+            342.6467590332031
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7710976600646973,
+          "bbox": [
+            1081.949951171875,
+            126.08299255371094,
+            1107.8800048828125,
+            173.52334594726562
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7527620196342468,
+          "bbox": [
+            1260.2647705078125,
+            335.908935546875,
+            1353.80859375,
+            447.98614501953125
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6450297236442566,
+          "bbox": [
+            1160.2921142578125,
+            380.7734680175781,
+            1323.9534912109375,
+            544.5874633789062
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6239835023880005,
+          "bbox": [
+            362.70391845703125,
+            278.93292236328125,
+            440.1492614746094,
+            382.4222412109375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6144299507141113,
+          "bbox": [
+            1328.352783203125,
+            383.7929992675781,
+            1390.2119140625,
+            534.2457275390625
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5441088080406189,
+          "bbox": [
+            929.4114990234375,
+            141.87823486328125,
+            1012.79833984375,
+            268.1595764160156
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.538101315498352,
+          "bbox": [
+            1180.90380859375,
+            219.9633331298828,
+            1210.9637451171875,
+            290.71807861328125
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5333172678947449,
+          "bbox": [
+            1092.6187744140625,
+            391.8802795410156,
+            1205.283935546875,
+            661.33642578125
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.42170974612236023,
+          "bbox": [
+            1146.338623046875,
+            195.233154296875,
+            1190.10302734375,
+            263.44384765625
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "phone",
+          "confidence": 0.41196954250335693,
+          "bbox": [
+            1364.6534423828125,
+            499.7623291015625,
+            1413.5067138671875,
+            553.9268798828125
+          ],
+          "original_subcategory": "telephone"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4117427170276642,
+          "bbox": [
+            358.21160888671875,
+            278.88446044921875,
+            448.6164855957031,
+            429.6176452636719
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.41039344668388367,
+          "bbox": [
+            1146.06689453125,
+            195.49969482421875,
+            1190.01171875,
+            265.1234436035156
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.33587950468063354,
+          "bbox": [
+            1128.017578125,
+            249.08302307128906,
+            1170.4898681640625,
+            279.8266906738281
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3178741931915283,
+          "bbox": [
+            561.3114013671875,
+            147.42901611328125,
+            600.3212890625,
+            195.88861083984375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.31481263041496277,
+          "bbox": [
+            1364.9102783203125,
+            499.7547607421875,
+            1412.79638671875,
+            554.4915771484375
+          ],
+          "original_subcategory": "Output device"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.311259388923645,
+          "bbox": [
+            1129.946533203125,
+            195.69110107421875,
+            1189.6763916015625,
+            277.754150390625
+          ],
+          "original_subcategory": "Television"
+        }
+      ]
+    },
+    {
+      "image": "Screenshot From 2025-08-02 19-26-28.png",
+      "detections": 34,
+      "time": 0.27806925773620605,
+      "detections_list": [
+        {
+          "class": "person",
+          "confidence": 0.8681073188781738,
+          "bbox": [
+            550.667236328125,
+            525.4051513671875,
+            765.536376953125,
+            790.1824340820312
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.8679723143577576,
+          "bbox": [
+            534.576171875,
+            402.93145751953125,
+            652.541748046875,
+            508.1116027832031
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8659362196922302,
+          "bbox": [
+            253.67762756347656,
+            200.9322052001953,
+            363.6473693847656,
+            420.60784912109375
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8343231678009033,
+          "bbox": [
+            441.275634765625,
+            389.721923828125,
+            585.8504028320312,
+            638.9522705078125
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.8203287720680237,
+          "bbox": [
+            200.81703186035156,
+            511.069091796875,
+            297.4430847167969,
+            740.3172607421875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.8187270164489746,
+          "bbox": [
+            695.0230712890625,
+            535.998779296875,
+            837.7587280273438,
+            667.0554809570312
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7688620686531067,
+          "bbox": [
+            331.0815734863281,
+            279.60601806640625,
+            513.5860595703125,
+            485.9210510253906
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.7688481211662292,
+          "bbox": [
+            441.7371826171875,
+            317.1651916503906,
+            555.6121215820312,
+            404.59619140625
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7462590932846069,
+          "bbox": [
+            905.6802368164062,
+            325.0403747558594,
+            1003.829833984375,
+            489.0239562988281
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6983766555786133,
+          "bbox": [
+            481.53289794921875,
+            626.9553833007812,
+            725.5234375,
+            809.696044921875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6964593529701233,
+          "bbox": [
+            115.12100982666016,
+            284.75262451171875,
+            206.999755859375,
+            476.98162841796875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6859895586967468,
+          "bbox": [
+            622.4775390625,
+            328.5396423339844,
+            705.58447265625,
+            408.1646423339844
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6840493083000183,
+          "bbox": [
+            27.60700798034668,
+            230.86827087402344,
+            155.83917236328125,
+            386.9805603027344
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6756371259689331,
+          "bbox": [
+            849.771240234375,
+            481.63385009765625,
+            956.3018798828125,
+            587.2402954101562
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.6610992550849915,
+          "bbox": [
+            32.94731140136719,
+            453.0271911621094,
+            110.90608215332031,
+            533.5653076171875
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6399215459823608,
+          "bbox": [
+            224.1779327392578,
+            238.87362670898438,
+            319.8551940917969,
+            427.5175476074219
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6372254490852356,
+          "bbox": [
+            481.66766357421875,
+            629.06884765625,
+            725.2759399414062,
+            809.2495727539062
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6315789818763733,
+          "bbox": [
+            377.3616638183594,
+            230.3398895263672,
+            423.6435546875,
+            284.0898132324219
+          ],
+          "original_subcategory": "Computer screen"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.630470335483551,
+          "bbox": [
+            387.41107177734375,
+            450.2128601074219,
+            565.10546875,
+            709.4900512695312
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5780088305473328,
+          "bbox": [
+            377.7853088378906,
+            230.27838134765625,
+            423.9085693359375,
+            284.19195556640625
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5687927007675171,
+          "bbox": [
+            140.71395874023438,
+            368.2881774902344,
+            266.1007995605469,
+            596.0593872070312
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5680248737335205,
+          "bbox": [
+            958.4130859375,
+            319.4561462402344,
+            1010.6288452148438,
+            370.1215515136719
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5657992959022522,
+          "bbox": [
+            378.2633056640625,
+            229.94207763671875,
+            423.6740417480469,
+            283.843994140625
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5587836503982544,
+          "bbox": [
+            140.56204223632812,
+            369.5947570800781,
+            265.4331970214844,
+            595.1373901367188
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.5061826109886169,
+          "bbox": [
+            999.1993408203125,
+            326.8753967285156,
+            1068.1396484375,
+            485.4881896972656
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.48177430033683777,
+          "bbox": [
+            932.9547729492188,
+            303.70953369140625,
+            967.8873901367188,
+            347.2090759277344
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.46988537907600403,
+          "bbox": [
+            692.6632080078125,
+            400.4471435546875,
+            799.9667358398438,
+            477.74639892578125
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.42333951592445374,
+          "bbox": [
+            14.234779357910156,
+            285.79736328125,
+            89.78256225585938,
+            375.20733642578125
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.4175189137458801,
+          "bbox": [
+            322.6678771972656,
+            363.9656982421875,
+            445.3703308105469,
+            570.9140625
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.4079127907752991,
+          "bbox": [
+            830.866455078125,
+            274.7544860839844,
+            916.6278686523438,
+            423.6902160644531
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.36140456795692444,
+          "bbox": [
+            790.6419067382812,
+            431.51629638671875,
+            850.810302734375,
+            501.58111572265625
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.35448217391967773,
+          "bbox": [
+            419.2614440917969,
+            176.9106903076172,
+            468.2707214355469,
+            234.75677490234375
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.3472212255001068,
+          "bbox": [
+            781.9274291992188,
+            431.9790954589844,
+            851.3102416992188,
+            502.02435302734375
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.31584519147872925,
+          "bbox": [
+            737.1280517578125,
+            440.6522521972656,
+            800.119873046875,
+            478.5626525878906
+          ],
+          "original_subcategory": "desk chair"
+        }
+      ]
+    }
+  ],
+  "detection_summary": {
+    "ofi1-20231026-071542-1698297342015-7_mp4-835_jpg.rf.e9ce4d02e364fb2420db2aa64863d824.jpg": {
+      "detections": [
+        {
+          "class": "keyboard",
+          "confidence": 0.9005553126335144,
+          "bbox": [
+            296.06915283203125,
+            278.1861572265625,
+            318.26922607421875,
+            300.8463134765625
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.8804145455360413,
+          "bbox": [
+            393.123779296875,
+            400.9125671386719,
+            422.7979736328125,
+            439.3785095214844
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8317376375198364,
+          "bbox": [
+            232.76219177246094,
+            220.4677734375,
+            322.2886962890625,
+            358.040771484375
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8211106657981873,
+          "bbox": [
+            372.255615234375,
+            212.94821166992188,
+            409.64501953125,
+            292.79144287109375
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.8069137334823608,
+          "bbox": [
+            393.3995361328125,
+            400.8203430175781,
+            422.877197265625,
+            439.6297912597656
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.7719144821166992,
+          "bbox": [
+            351.79327392578125,
+            293.387451171875,
+            406.60223388671875,
+            361.861572265625
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.768137514591217,
+          "bbox": [
+            398.56402587890625,
+            312.7283935546875,
+            480.07745361328125,
+            418.548095703125
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7506123781204224,
+          "bbox": [
+            398.6287841796875,
+            312.90997314453125,
+            480.091064453125,
+            418.19891357421875
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.74858158826828,
+          "bbox": [
+            432.161376953125,
+            187.26303100585938,
+            481.07330322265625,
+            242.35403442382812
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7375842332839966,
+          "bbox": [
+            305.72540283203125,
+            199.80319213867188,
+            355.12213134765625,
+            279.8559265136719
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7029500603675842,
+          "bbox": [
+            483.76708984375,
+            231.35446166992188,
+            530.2293701171875,
+            276.8016052246094
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6752206683158875,
+          "bbox": [
+            463.3529052734375,
+            301.40264892578125,
+            512.5696411132812,
+            362.54150390625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6651748418807983,
+          "bbox": [
+            324.42724609375,
+            136.62774658203125,
+            345.0047607421875,
+            163.09774780273438
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.660165548324585,
+          "bbox": [
+            346.2110595703125,
+            233.93368530273438,
+            383.787841796875,
+            295.2585754394531
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.6441540122032166,
+          "bbox": [
+            271.37945556640625,
+            215.26080322265625,
+            304.97283935546875,
+            268.0245361328125
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.643947422504425,
+          "bbox": [
+            280.6759948730469,
+            119.37683868408203,
+            311.8437805175781,
+            149.57537841796875
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6247088313102722,
+          "bbox": [
+            359.3888854980469,
+            143.1199188232422,
+            384.9951477050781,
+            168.8679962158203
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.6159265637397766,
+          "bbox": [
+            393.427978515625,
+            400.89630126953125,
+            422.882568359375,
+            439.73773193359375
+          ],
+          "original_subcategory": "keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5880988240242004,
+          "bbox": [
+            215.76351928710938,
+            262.152099609375,
+            291.6535339355469,
+            400.43670654296875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5781395435333252,
+          "bbox": [
+            411.17449951171875,
+            285.6185302734375,
+            481.46734619140625,
+            361.7347412109375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5339862704277039,
+          "bbox": [
+            522.4384765625,
+            252.9421844482422,
+            570.436767578125,
+            304.95611572265625
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5117887854576111,
+          "bbox": [
+            394.9732360839844,
+            236.5839385986328,
+            424.8074035644531,
+            302.01678466796875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.5091680884361267,
+          "bbox": [
+            312.5278625488281,
+            168.685302734375,
+            338.7532043457031,
+            176.03631591796875
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.48746082186698914,
+          "bbox": [
+            522.4705200195312,
+            253.29107666015625,
+            569.8615112304688,
+            305.17578125
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.4491352140903473,
+          "bbox": [
+            338.1180419921875,
+            360.77508544921875,
+            433.5687255859375,
+            480.0
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.43988409638404846,
+          "bbox": [
+            352.70806884765625,
+            181.91207885742188,
+            398.36895751953125,
+            232.72274780273438
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4398565888404846,
+          "bbox": [
+            341.65545654296875,
+            132.40493774414062,
+            367.21630859375,
+            160.07052612304688
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "person",
+          "confidence": 0.4168740510940552,
+          "bbox": [
+            318.69140625,
+            149.265869140625,
+            365.0810546875,
+            206.99850463867188
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.4113369286060333,
+          "bbox": [
+            353.37738037109375,
+            182.4815673828125,
+            398.54547119140625,
+            232.66253662109375
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.3773553669452667,
+          "bbox": [
+            350.280029296875,
+            159.5440673828125,
+            389.99365234375,
+            221.769775390625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.35671207308769226,
+          "bbox": [
+            328.8218688964844,
+            171.69627380371094,
+            364.3817443847656,
+            215.35975646972656
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.34687092900276184,
+          "bbox": [
+            406.72760009765625,
+            380.25811767578125,
+            439.87615966796875,
+            416.30462646484375
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3241046071052551,
+          "bbox": [
+            306.2440185546875,
+            198.88592529296875,
+            383.1275634765625,
+            292.81060791015625
+          ],
+          "original_subcategory": "Computer display"
+        }
+      ],
+      "total_detections": 33,
+      "processing_time": 0.7507693767547607
+    },
+    "1646654228-1375518_jpg.rf.ad06279ec3c3afd3a06037dd6601fd29.jpg": {
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8789047598838806,
+          "bbox": [
+            97.96855163574219,
+            121.51864624023438,
+            222.8072052001953,
+            297.43402099609375
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8561797738075256,
+          "bbox": [
+            392.9909973144531,
+            252.32528686523438,
+            501.3121643066406,
+            349.9349060058594
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8429361581802368,
+          "bbox": [
+            193.94979858398438,
+            38.115966796875,
+            269.1252136230469,
+            197.0465850830078
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.8160102367401123,
+          "bbox": [
+            372.5490417480469,
+            359.3699645996094,
+            447.3237609863281,
+            374.5866394042969
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.770781397819519,
+          "bbox": [
+            224.59793090820312,
+            137.23263549804688,
+            322.4601135253906,
+            274.31524658203125
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.759676456451416,
+          "bbox": [
+            342.3493347167969,
+            109.52682495117188,
+            447.5712585449219,
+            180.1766357421875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7344198226928711,
+          "bbox": [
+            333.829345703125,
+            68.32798767089844,
+            376.8818359375,
+            107.35090637207031
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6961215734481812,
+          "bbox": [
+            82.32000732421875,
+            80.31306457519531,
+            135.9121551513672,
+            135.57542419433594
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6853907704353333,
+          "bbox": [
+            467.2855224609375,
+            36.135292053222656,
+            511.47998046875,
+            74.88810729980469
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6459940671920776,
+          "bbox": [
+            63.09814453125,
+            210.39883422851562,
+            172.31935119628906,
+            319.0933532714844
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.6395758390426636,
+          "bbox": [
+            353.45709228515625,
+            105.84429931640625,
+            398.28973388671875,
+            121.308349609375
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.5930073261260986,
+          "bbox": [
+            403.17425537109375,
+            110.08921813964844,
+            448.56671142578125,
+            140.23995971679688
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5750464797019958,
+          "bbox": [
+            513.4447021484375,
+            79.7210693359375,
+            561.0740966796875,
+            108.39706420898438
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5729297995567322,
+          "bbox": [
+            116.82189178466797,
+            28.837364196777344,
+            148.20166015625,
+            72.14494323730469
+          ],
+          "original_subcategory": "Monitor panel"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5691128373146057,
+          "bbox": [
+            417.55084228515625,
+            71.31083679199219,
+            471.3975830078125,
+            123.20387268066406
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5561093688011169,
+          "bbox": [
+            80.11540222167969,
+            330.1804504394531,
+            130.3740997314453,
+            374.9474182128906
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.49858880043029785,
+          "bbox": [
+            353.45648193359375,
+            106.22759246826172,
+            399.044677734375,
+            122.5326919555664
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4878595173358917,
+          "bbox": [
+            0.0,
+            194.16744995117188,
+            56.49951171875,
+            298.9396667480469
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4864782989025116,
+          "bbox": [
+            428.7965087890625,
+            8.818063735961914,
+            456.23052978515625,
+            18.350250244140625
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.47589123249053955,
+          "bbox": [
+            513.022705078125,
+            121.93960571289062,
+            578.37353515625,
+            179.14175415039062
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.46109190583229065,
+          "bbox": [
+            338.94561767578125,
+            152.879150390625,
+            415.88714599609375,
+            228.9866943359375
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.4495507478713989,
+          "bbox": [
+            4.391563415527344,
+            110.83892822265625,
+            56.95413589477539,
+            155.37786865234375
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.41291964054107666,
+          "bbox": [
+            154.50393676757812,
+            183.24465942382812,
+            214.64584350585938,
+            244.68817138671875
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.37309524416923523,
+          "bbox": [
+            293.3313293457031,
+            346.66326904296875,
+            338.8447570800781,
+            374.44451904296875
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.37051382660865784,
+          "bbox": [
+            473.14190673828125,
+            312.17047119140625,
+            551.2644653320312,
+            374.18896484375
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.3589242696762085,
+          "bbox": [
+            401.46795654296875,
+            123.73793029785156,
+            438.91107177734375,
+            149.00767517089844
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.35813668370246887,
+          "bbox": [
+            338.631591796875,
+            21.519432067871094,
+            384.7005615234375,
+            58.021087646484375
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.33918434381484985,
+          "bbox": [
+            403.198974609375,
+            110.32035827636719,
+            448.4862060546875,
+            140.079345703125
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.32279255986213684,
+          "bbox": [
+            93.80186462402344,
+            46.13226318359375,
+            115.82563781738281,
+            70.6013412475586
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.32207539677619934,
+          "bbox": [
+            465.7752685546875,
+            220.37655639648438,
+            526.453369140625,
+            281.4441223144531
+          ],
+          "original_subcategory": "desk chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3161810040473938,
+          "bbox": [
+            17.966995239257812,
+            85.41273498535156,
+            59.183349609375,
+            133.21800231933594
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.31201615929603577,
+          "bbox": [
+            131.70458984375,
+            63.14483642578125,
+            206.8131103515625,
+            104.36039733886719
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        }
+      ],
+      "total_detections": 32,
+      "processing_time": 0.3258848190307617
+    },
+    "WhatsApp-Video-2025-05-13-at-4_10_32-PM_frame_0068_jpg.rf.3a0f9cb951798176ba600d34fa6bb9e4.jpg": {
+      "detections": [
+        {
+          "class": "chair",
+          "confidence": 0.8646501898765564,
+          "bbox": [
+            278.1124572753906,
+            359.99566650390625,
+            546.5046997070312,
+            578.7056884765625
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.864169716835022,
+          "bbox": [
+            23.32534408569336,
+            272.50860595703125,
+            117.6171646118164,
+            358.69171142578125
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7979651689529419,
+          "bbox": [
+            84.04215240478516,
+            105.73546600341797,
+            287.364013671875,
+            376.6250915527344
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.73250812292099,
+          "bbox": [
+            152.32598876953125,
+            149.41928100585938,
+            303.0932922363281,
+            461.16864013671875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.7173798084259033,
+          "bbox": [
+            527.737060546875,
+            109.45616149902344,
+            658.8202514648438,
+            176.55178833007812
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6286882162094116,
+          "bbox": [
+            526.5407104492188,
+            0.6141979694366455,
+            716.57861328125,
+            192.43911743164062
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5811905264854431,
+          "bbox": [
+            777.39306640625,
+            15.225582122802734,
+            952.5516967773438,
+            271.9744873046875
+          ],
+          "original_subcategory": "chair"
+        }
+      ],
+      "total_detections": 7,
+      "processing_time": 0.2618980407714844
+    },
+    "1746543134_64577_jpg.rf.570a8e4ad8c253da31a587447c775769.jpg": {
+      "detections": [
+        {
+          "class": "keyboard",
+          "confidence": 0.8553534746170044,
+          "bbox": [
+            756.7959594726562,
+            347.6542053222656,
+            1114.4927978515625,
+            480.58355712890625
+          ],
+          "original_subcategory": "keyboard"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.8076534867286682,
+          "bbox": [
+            310.7709655761719,
+            194.78189086914062,
+            683.7138061523438,
+            534.3649291992188
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7884508967399597,
+          "bbox": [
+            1152.961669921875,
+            751.5053100585938,
+            1644.640869140625,
+            1078.7257080078125
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.7514846920967102,
+          "bbox": [
+            756.6438598632812,
+            347.940185546875,
+            1114.935302734375,
+            480.4128112792969
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7114033102989197,
+          "bbox": [
+            413.9876403808594,
+            464.9063720703125,
+            1168.9229736328125,
+            1077.5252685546875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.6265158653259277,
+          "bbox": [
+            1224.4896240234375,
+            136.93276977539062,
+            1718.1639404296875,
+            491.7512512207031
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5789259672164917,
+          "bbox": [
+            490.7310791015625,
+            110.09951782226562,
+            1260.4267578125,
+            263.5809020996094
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "phone",
+          "confidence": 0.3192022144794464,
+          "bbox": [
+            976.9513549804688,
+            814.9497680664062,
+            1038.2403564453125,
+            859.046142578125
+          ],
+          "original_subcategory": "cell phone"
+        }
+      ],
+      "total_detections": 8,
+      "processing_time": 0.27947425842285156
+    },
+    "photo_2025-08-01_10-18-51.jpg": {
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8943500518798828,
+          "bbox": [
+            743.0995483398438,
+            359.8548583984375,
+            988.1565551757812,
+            575.8582763671875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7669909596443176,
+          "bbox": [
+            726.0001831054688,
+            213.2908172607422,
+            788.9995727539062,
+            350.81549072265625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7253857851028442,
+          "bbox": [
+            1178.454833984375,
+            0.068328857421875,
+            1279.705322265625,
+            188.83865356445312
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.7035659551620483,
+          "bbox": [
+            681.5158081054688,
+            429.41986083984375,
+            797.1829223632812,
+            546.078369140625
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6926320195198059,
+          "bbox": [
+            624.5433349609375,
+            444.9754638671875,
+            666.7183837890625,
+            576.0
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6833596229553223,
+          "bbox": [
+            0.02198028564453125,
+            402.79217529296875,
+            68.64572143554688,
+            576.0
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6289065480232239,
+          "bbox": [
+            480.41387939453125,
+            273.189453125,
+            591.9059448242188,
+            378.821044921875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.5661277174949646,
+          "bbox": [
+            724.6884155273438,
+            192.48199462890625,
+            755.5026245117188,
+            232.949462890625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.5301101207733154,
+          "bbox": [
+            26.997283935546875,
+            328.06915283203125,
+            447.54559326171875,
+            575.927978515625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.5196355581283569,
+          "bbox": [
+            408.01116943359375,
+            273.85626220703125,
+            528.1959228515625,
+            408.77288818359375
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5148841142654419,
+          "bbox": [
+            598.2694091796875,
+            296.6121826171875,
+            670.2291259765625,
+            471.1082763671875
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "person",
+          "confidence": 0.5080087184906006,
+          "bbox": [
+            1075.717529296875,
+            28.35723876953125,
+            1131.459228515625,
+            189.3026123046875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4914342164993286,
+          "bbox": [
+            610.7633056640625,
+            272.151611328125,
+            656.8448486328125,
+            359.3756103515625
+          ],
+          "original_subcategory": "Computer screen"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.4902820885181427,
+          "bbox": [
+            437.2069091796875,
+            405.2138366699219,
+            524.7825927734375,
+            498.6474304199219
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.48938047885894775,
+          "bbox": [
+            396.8799133300781,
+            496.0986328125,
+            482.5591125488281,
+            543.40673828125
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.47756773233413696,
+          "bbox": [
+            598.047607421875,
+            269.85076904296875,
+            669.709228515625,
+            470.57904052734375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.4705558121204376,
+          "bbox": [
+            975.4901123046875,
+            383.605224609375,
+            1056.017822265625,
+            466.23876953125
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "phone",
+          "confidence": 0.46654486656188965,
+          "bbox": [
+            761.0584716796875,
+            541.3792724609375,
+            822.6865234375,
+            564.5543212890625
+          ],
+          "original_subcategory": "cell phone"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.45125046372413635,
+          "bbox": [
+            610.809814453125,
+            271.55584716796875,
+            656.93017578125,
+            358.97283935546875
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.44177699089050293,
+          "bbox": [
+            504.22882080078125,
+            356.1962890625,
+            566.4564819335938,
+            545.7777099609375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "phone",
+          "confidence": 0.4340517222881317,
+          "bbox": [
+            761.38232421875,
+            541.361328125,
+            822.4619140625,
+            564.7291259765625
+          ],
+          "original_subcategory": "smartphone"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.43352705240249634,
+          "bbox": [
+            509.00726318359375,
+            367.8363037109375,
+            576.0736694335938,
+            575.9525146484375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4033038020133972,
+          "bbox": [
+            508.04840087890625,
+            425.7286376953125,
+            571.8399047851562,
+            575.7146606445312
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.3941781520843506,
+          "bbox": [
+            231.06707763671875,
+            336.92950439453125,
+            427.28814697265625,
+            573.3406372070312
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.38778451085090637,
+          "bbox": [
+            505.6360168457031,
+            369.06787109375,
+            667.516845703125,
+            575.642822265625
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.3848263621330261,
+          "bbox": [
+            781.6473388671875,
+            273.11358642578125,
+            866.6956787109375,
+            445.92620849609375
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3794716000556946,
+          "bbox": [
+            761.83984375,
+            200.45938110351562,
+            784.5517578125,
+            220.9769287109375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3701353371143341,
+          "bbox": [
+            505.3236999511719,
+            364.67413330078125,
+            573.344482421875,
+            574.739501953125
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3556402623653412,
+          "bbox": [
+            664.8366088867188,
+            390.19329833984375,
+            710.4174194335938,
+            410.52667236328125
+          ],
+          "original_subcategory": "Output device"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3242124319076538,
+          "bbox": [
+            509.0406494140625,
+            331.79510498046875,
+            566.1937255859375,
+            506.19232177734375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3212391436100006,
+          "bbox": [
+            611.0353393554688,
+            271.613037109375,
+            657.0021362304688,
+            358.3402099609375
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.319568932056427,
+          "bbox": [
+            621.0279541015625,
+            347.05633544921875,
+            666.6075439453125,
+            576.0
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.31607356667518616,
+          "bbox": [
+            354.5948486328125,
+            287.13629150390625,
+            518.5933837890625,
+            483.35308837890625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3108721077442169,
+          "bbox": [
+            507.1840515136719,
+            367.07440185546875,
+            593.581787109375,
+            575.393798828125
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.3094472289085388,
+          "bbox": [
+            750.871826171875,
+            338.9328918457031,
+            806.59130859375,
+            482.1044006347656
+          ],
+          "original_subcategory": "chair"
+        }
+      ],
+      "total_detections": 35,
+      "processing_time": 0.21772265434265137
+    },
+    "maxresdefault.jpg": {
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.9093204736709595,
+          "bbox": [
+            285.2452392578125,
+            198.6075439453125,
+            714.9312744140625,
+            638.323486328125
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8422834277153015,
+          "bbox": [
+            175.675048828125,
+            112.83592224121094,
+            349.87652587890625,
+            414.04150390625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.8156452775001526,
+          "bbox": [
+            552.8872680664062,
+            40.05134582519531,
+            629.8622436523438,
+            92.4661865234375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.8070093393325806,
+          "bbox": [
+            13.353607177734375,
+            201.59408569335938,
+            122.33152770996094,
+            374.9167785644531
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.7685797214508057,
+          "bbox": [
+            967.8271484375,
+            606.7840576171875,
+            1060.1416015625,
+            666.1373291015625
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7659019827842712,
+          "bbox": [
+            477.4519348144531,
+            38.98284912109375,
+            554.072998046875,
+            99.92999267578125
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7635020017623901,
+          "bbox": [
+            208.35006713867188,
+            52.50030517578125,
+            272.5428771972656,
+            106.81600952148438
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7437653541564941,
+          "bbox": [
+            884.0303955078125,
+            103.48980712890625,
+            971.4759521484375,
+            236.06695556640625
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.7356537580490112,
+          "bbox": [
+            967.6243896484375,
+            606.4989013671875,
+            1059.624755859375,
+            665.9403076171875
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7332398295402527,
+          "bbox": [
+            844.6497802734375,
+            70.43681335449219,
+            894.208740234375,
+            125.70512390136719
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.729922890663147,
+          "bbox": [
+            509.4149169921875,
+            90.89938354492188,
+            659.687744140625,
+            309.7432861328125
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.7161081433296204,
+          "bbox": [
+            874.46826171875,
+            171.2916717529297,
+            971.7734375,
+            307.32489013671875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6429718136787415,
+          "bbox": [
+            844.6355590820312,
+            70.11962890625,
+            894.0753784179688,
+            125.439208984375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6420207023620605,
+          "bbox": [
+            817.9747924804688,
+            415.901123046875,
+            1017.1281127929688,
+            650.0386962890625
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.63787841796875,
+          "bbox": [
+            1122.551025390625,
+            559.5677490234375,
+            1197.832763671875,
+            707.6968994140625
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.6174209117889404,
+          "bbox": [
+            518.5225219726562,
+            106.76724243164062,
+            579.0988159179688,
+            123.20785522460938
+          ],
+          "original_subcategory": "computer keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5311262607574463,
+          "bbox": [
+            888.1409912109375,
+            71.10050964355469,
+            953.2181396484375,
+            118.71583557128906
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "phone",
+          "confidence": 0.5197013020515442,
+          "bbox": [
+            439.06390380859375,
+            96.15167236328125,
+            478.90594482421875,
+            127.18170166015625
+          ],
+          "original_subcategory": "telephone"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4748397469520569,
+          "bbox": [
+            208.37066650390625,
+            52.592742919921875,
+            273.61309814453125,
+            106.79928588867188
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.45106014609336853,
+          "bbox": [
+            518.4805908203125,
+            106.95425415039062,
+            581.0394287109375,
+            123.68161010742188
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.3514610230922699,
+          "bbox": [
+            234.4478759765625,
+            74.75248718261719,
+            309.7733154296875,
+            158.9844207763672
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.31551021337509155,
+          "bbox": [
+            1174.8681640625,
+            527.2314453125,
+            1217.7890625,
+            567.326904296875
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3029865026473999,
+          "bbox": [
+            329.39031982421875,
+            0.2924995422363281,
+            456.60308837890625,
+            30.08035659790039
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        }
+      ],
+      "total_detections": 23,
+      "processing_time": 0.26486730575561523
+    },
+    "Screenshot From 2025-08-02 19-26-33.png": {
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.938784658908844,
+          "bbox": [
+            841.3966064453125,
+            346.51068115234375,
+            1005.1713256835938,
+            811.6043090820312
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.8872408866882324,
+          "bbox": [
+            1261.3092041015625,
+            449.4027404785156,
+            1334.7274169921875,
+            514.4652099609375
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8745696544647217,
+          "bbox": [
+            915.2527465820312,
+            96.2039794921875,
+            1020.15185546875,
+            269.36328125
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.8635640740394592,
+          "bbox": [
+            497.7574768066406,
+            364.6632995605469,
+            677.80419921875,
+            571.3836669921875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.8587290644645691,
+          "bbox": [
+            643.5579833984375,
+            125.60078430175781,
+            742.4957885742188,
+            268.95550537109375
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.8458524346351624,
+          "bbox": [
+            754.7752685546875,
+            99.75814819335938,
+            870.8565063476562,
+            174.2692413330078
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.7952224612236023,
+          "bbox": [
+            993.9082641601562,
+            204.42320251464844,
+            1112.9970703125,
+            399.6737060546875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.7831841111183167,
+          "bbox": [
+            395.89166259765625,
+            381.1380920410156,
+            454.9189147949219,
+            432.008056640625
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7789716124534607,
+          "bbox": [
+            1017.5535888671875,
+            176.8062286376953,
+            1113.8701171875,
+            342.6467590332031
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7710976600646973,
+          "bbox": [
+            1081.949951171875,
+            126.08299255371094,
+            1107.8800048828125,
+            173.52334594726562
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.7527620196342468,
+          "bbox": [
+            1260.2647705078125,
+            335.908935546875,
+            1353.80859375,
+            447.98614501953125
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6450297236442566,
+          "bbox": [
+            1160.2921142578125,
+            380.7734680175781,
+            1323.9534912109375,
+            544.5874633789062
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6239835023880005,
+          "bbox": [
+            362.70391845703125,
+            278.93292236328125,
+            440.1492614746094,
+            382.4222412109375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6144299507141113,
+          "bbox": [
+            1328.352783203125,
+            383.7929992675781,
+            1390.2119140625,
+            534.2457275390625
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5441088080406189,
+          "bbox": [
+            929.4114990234375,
+            141.87823486328125,
+            1012.79833984375,
+            268.1595764160156
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.538101315498352,
+          "bbox": [
+            1180.90380859375,
+            219.9633331298828,
+            1210.9637451171875,
+            290.71807861328125
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5333172678947449,
+          "bbox": [
+            1092.6187744140625,
+            391.8802795410156,
+            1205.283935546875,
+            661.33642578125
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.42170974612236023,
+          "bbox": [
+            1146.338623046875,
+            195.233154296875,
+            1190.10302734375,
+            263.44384765625
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "phone",
+          "confidence": 0.41196954250335693,
+          "bbox": [
+            1364.6534423828125,
+            499.7623291015625,
+            1413.5067138671875,
+            553.9268798828125
+          ],
+          "original_subcategory": "telephone"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.4117427170276642,
+          "bbox": [
+            358.21160888671875,
+            278.88446044921875,
+            448.6164855957031,
+            429.6176452636719
+          ],
+          "original_subcategory": "Computer display"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.41039344668388367,
+          "bbox": [
+            1146.06689453125,
+            195.49969482421875,
+            1190.01171875,
+            265.1234436035156
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.33587950468063354,
+          "bbox": [
+            1128.017578125,
+            249.08302307128906,
+            1170.4898681640625,
+            279.8266906738281
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.3178741931915283,
+          "bbox": [
+            561.3114013671875,
+            147.42901611328125,
+            600.3212890625,
+            195.88861083984375
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.31481263041496277,
+          "bbox": [
+            1364.9102783203125,
+            499.7547607421875,
+            1412.79638671875,
+            554.4915771484375
+          ],
+          "original_subcategory": "Output device"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.311259388923645,
+          "bbox": [
+            1129.946533203125,
+            195.69110107421875,
+            1189.6763916015625,
+            277.754150390625
+          ],
+          "original_subcategory": "Television"
+        }
+      ],
+      "total_detections": 25,
+      "processing_time": 0.28006982803344727
+    },
+    "Screenshot From 2025-08-02 19-26-28.png": {
+      "detections": [
+        {
+          "class": "person",
+          "confidence": 0.8681073188781738,
+          "bbox": [
+            550.667236328125,
+            525.4051513671875,
+            765.536376953125,
+            790.1824340820312
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.8679723143577576,
+          "bbox": [
+            534.576171875,
+            402.93145751953125,
+            652.541748046875,
+            508.1116027832031
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8659362196922302,
+          "bbox": [
+            253.67762756347656,
+            200.9322052001953,
+            363.6473693847656,
+            420.60784912109375
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "person",
+          "confidence": 0.8343231678009033,
+          "bbox": [
+            441.275634765625,
+            389.721923828125,
+            585.8504028320312,
+            638.9522705078125
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.8203287720680237,
+          "bbox": [
+            200.81703186035156,
+            511.069091796875,
+            297.4430847167969,
+            740.3172607421875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.8187270164489746,
+          "bbox": [
+            695.0230712890625,
+            535.998779296875,
+            837.7587280273438,
+            667.0554809570312
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7688620686531067,
+          "bbox": [
+            331.0815734863281,
+            279.60601806640625,
+            513.5860595703125,
+            485.9210510253906
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.7688481211662292,
+          "bbox": [
+            441.7371826171875,
+            317.1651916503906,
+            555.6121215820312,
+            404.59619140625
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "person",
+          "confidence": 0.7462590932846069,
+          "bbox": [
+            905.6802368164062,
+            325.0403747558594,
+            1003.829833984375,
+            489.0239562988281
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6983766555786133,
+          "bbox": [
+            481.53289794921875,
+            626.9553833007812,
+            725.5234375,
+            809.696044921875
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6964593529701233,
+          "bbox": [
+            115.12100982666016,
+            284.75262451171875,
+            206.999755859375,
+            476.98162841796875
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6859895586967468,
+          "bbox": [
+            622.4775390625,
+            328.5396423339844,
+            705.58447265625,
+            408.1646423339844
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.6840493083000183,
+          "bbox": [
+            27.60700798034668,
+            230.86827087402344,
+            155.83917236328125,
+            386.9805603027344
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6756371259689331,
+          "bbox": [
+            849.771240234375,
+            481.63385009765625,
+            956.3018798828125,
+            587.2402954101562
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "keyboard",
+          "confidence": 0.6610992550849915,
+          "bbox": [
+            32.94731140136719,
+            453.0271911621094,
+            110.90608215332031,
+            533.5653076171875
+          ],
+          "original_subcategory": "typing keyboard"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6399215459823608,
+          "bbox": [
+            224.1779327392578,
+            238.87362670898438,
+            319.8551940917969,
+            427.5175476074219
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.6372254490852356,
+          "bbox": [
+            481.66766357421875,
+            629.06884765625,
+            725.2759399414062,
+            809.2495727539062
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.6315789818763733,
+          "bbox": [
+            377.3616638183594,
+            230.3398895263672,
+            423.6435546875,
+            284.0898132324219
+          ],
+          "original_subcategory": "Computer screen"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.630470335483551,
+          "bbox": [
+            387.41107177734375,
+            450.2128601074219,
+            565.10546875,
+            709.4900512695312
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5780088305473328,
+          "bbox": [
+            377.7853088378906,
+            230.27838134765625,
+            423.9085693359375,
+            284.19195556640625
+          ],
+          "original_subcategory": "Video display unit (VDU)"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5687927007675171,
+          "bbox": [
+            140.71395874023438,
+            368.2881774902344,
+            266.1007995605469,
+            596.0593872070312
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5680248737335205,
+          "bbox": [
+            958.4130859375,
+            319.4561462402344,
+            1010.6288452148438,
+            370.1215515136719
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.5657992959022522,
+          "bbox": [
+            378.2633056640625,
+            229.94207763671875,
+            423.6740417480469,
+            283.843994140625
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.5587836503982544,
+          "bbox": [
+            140.56204223632812,
+            369.5947570800781,
+            265.4331970214844,
+            595.1373901367188
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.5061826109886169,
+          "bbox": [
+            999.1993408203125,
+            326.8753967285156,
+            1068.1396484375,
+            485.4881896972656
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "monitor",
+          "confidence": 0.48177430033683777,
+          "bbox": [
+            932.9547729492188,
+            303.70953369140625,
+            967.8873901367188,
+            347.2090759277344
+          ],
+          "original_subcategory": "Television"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.46988537907600403,
+          "bbox": [
+            692.6632080078125,
+            400.4471435546875,
+            799.9667358398438,
+            477.74639892578125
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "laptop",
+          "confidence": 0.42333951592445374,
+          "bbox": [
+            14.234779357910156,
+            285.79736328125,
+            89.78256225585938,
+            375.20733642578125
+          ],
+          "original_subcategory": "laptop"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.4175189137458801,
+          "bbox": [
+            322.6678771972656,
+            363.9656982421875,
+            445.3703308105469,
+            570.9140625
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "person",
+          "confidence": 0.4079127907752991,
+          "bbox": [
+            830.866455078125,
+            274.7544860839844,
+            916.6278686523438,
+            423.6902160644531
+          ],
+          "original_subcategory": "person"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.36140456795692444,
+          "bbox": [
+            790.6419067382812,
+            431.51629638671875,
+            850.810302734375,
+            501.58111572265625
+          ],
+          "original_subcategory": "chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.35448217391967773,
+          "bbox": [
+            419.2614440917969,
+            176.9106903076172,
+            468.2707214355469,
+            234.75677490234375
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.3472212255001068,
+          "bbox": [
+            781.9274291992188,
+            431.9790954589844,
+            851.3102416992188,
+            502.02435302734375
+          ],
+          "original_subcategory": "office chair"
+        },
+        {
+          "class": "chair",
+          "confidence": 0.31584519147872925,
+          "bbox": [
+            737.1280517578125,
+            440.6522521972656,
+            800.119873046875,
+            478.5626525878906
+          ],
+          "original_subcategory": "desk chair"
+        }
+      ],
+      "total_detections": 34,
+      "processing_time": 0.27806925773620605
+    }
+  }
+}
