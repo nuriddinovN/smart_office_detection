@@ -174,7 +174,7 @@ cd ../..
 
 ```bash
 # Navigate to the project directory
-cd smart-office-detection
+cd smart_office_detection
 
 # Activate virtual environment
 source smart_office/bin/activate
