@@ -82,7 +82,7 @@ source smart_office/bin/activate
 python --version  # Should show Python 3.10.x
 ```
 
-### Step 4: Install Dependencies
+### Step 3: Install Dependencies
 
 ```bash
 # Upgrade pip to latest version
@@ -146,7 +146,7 @@ cd ../..
 
 **⚠️ DO NOT rename the files - they must have exact names as shown above**
 
-### **✅Verify Model Installation:**
+### Step 4: **✅Verify Model Installation:**
 
 ```bash
 # Check if models are properly downloaded
