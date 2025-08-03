@@ -9,7 +9,7 @@ An AI-powered object detection system specifically designed for office environme
 
 ## 🌟 Features
 
-- **Custom YOLO-World Model**: Fine-tuned for office object detection
+- **Custom YOLO-World Model**: Prompt-tuned for office object detection
 - **Interactive Web Dashboard**: Easy-to-use Streamlit interface
 - **Real-time Detection**: Upload images and get instant results
 - **Multiple Export Formats**: JSON, CSV, and annotated images
@@ -61,7 +61,7 @@ smart_office/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/smart-office-detection.git
+git clone https://github.com/nuriddinovN/smart_office_detection.git
 cd smart-office-detection
 ```
 
