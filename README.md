@@ -474,13 +474,13 @@ If you encounter issues:
 
 | Metric | Value |
 |--------|-------|
-| Average Processing Time | ~1-3 seconds per image |
+| Average Processing Time | ~0.1-1 seconds per image |
 | Supported Image Formats | JPG, PNG, JPEG, BMP |
 | Maximum Image Size | 4K (4096x4096) |
 | Confidence Threshold Range | 0.1 - 1.0 |
 | Supported Categories | 6 main categories, 25+ subcategories |
-| Model Size | ~140MB (smart_office_prompttuned.pt) |
-| Base Model Size | ~280MB (yolov8x-worldv2.pt) |
+| Model Size | ~440MB (smart_office_prompttuned.pt) |
+| Base Model Size | ~140MB (yolov8x-worldv2.pt) |
 
 ## 🤝 Contributing
 
