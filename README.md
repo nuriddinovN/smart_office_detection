@@ -65,16 +65,7 @@ git clone https://github.com/nuriddinovN/smart_office_detection.git
 cd smart_office_detection
 ```
 
-### Step 2: Clean Models Directory (CRITICAL!)
-
-```bash
-# Navigate to models directory and remove placeholder files
-cd src/models
-rm smart_office_prompttuned.pt yolov8x-world.pt yolov8x-worldv2.pt
-cd ../..
-```
-
-### Step 3: Set Up Virtual Environment
+### Step 2: Set Up Virtual Environment
 
 ```bash
 # Create a virtual environment (recommended)
@@ -106,10 +97,10 @@ python -c "from ultralytics import YOLO; print('✅ Ultralytics installed succes
 
 ## ⚠️ **CRITICAL WARNING: Model Files Required**
 
-**🚨 IMPORTANT: Due to GitHub file size limitations (>100MB), the trained model files cannot be included in the repository clone. The cloned repository contains only placeholder files that MUST be replaced with actual model files.**
+**🚨 IMPORTANT: Due to GitHub file size limitations (>100MB), the trained model files MIGHT NOT be included in the repository clone. The cloned repository MIGHT contains only placeholder files that MUST be replaced with actual model files.**
 
 **❌ The project WILL NOT WORK without downloading the actual model files!**
-
+**⚠️If you face such truble pls follow instructions**
 ### Why This Step is Critical:
 - Model files are 140MB+ each (exceeds GitHub's file size limit)
 - Placeholder files in the clone are empty and non-functional
@@ -155,7 +146,7 @@ cd ../..
 
 **⚠️ DO NOT rename the files - they must have exact names as shown above**
 
-### Verify Model Installation:
+### **✅Verify Model Installation:**
 
 ```bash
 # Check if models are properly downloaded
